@@ -3,7 +3,7 @@ image:
 
 tasks:
   - name: ddev
-    prebuild: |
+    init: |
       sudo cp .gitpod/gitpod-setup-ddev.sh /usr/local/bin/.
     command: |
       sudo cp .gitpod/gitpod-setup-ddev.sh /usr/local/bin/.
